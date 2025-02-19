@@ -4,205 +4,195 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Impera Suites</title>
+    <title>SMK TI Bali Global Jimbaran | Impera Suites</title>
   </head>
   <body>
-    <nav>
-      <div class="nav__logo">Impera Suites</div>
-      <ul class="nav__links">
-        <li class="link"><a href="#">Home</a></li>
-        <li class="link"><a href="#">Book</a></li>
-        <li class="link"><a href="#">Blog</a></li>
-        <li class="link"><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
-    <header class="section__container header__container">
-      <div class="header__image__container">
-        <div class="header__content">
-          <h1>Enjoy Your Dream Vacation</h1>
-          <p>Book Hotels, Flights and stay packages at lowest price.</p>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="assets/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-3-line"></i>
+          </div>
         </div>
-        <div class="booking__container">
-          <form>
-            <div class="form__group">
-              <div class="input__group">
-                <input type="text" />
-                <label>Location</label>
-              </div>
-              <p>Where are you going?</p>
-            </div>
-            <div class="form__group">
-              <div class="input__group">
-                <input type="text" />
-                <label>Check In</label>
-              </div>
-              <p>Add date</p>
-            </div>
-            <div class="form__group">
-              <div class="input__group">
-                <input type="text" />
-                <label>Check Out</label>
-              </div>
-              <p>Add date</p>
-            </div>
-            <div class="form__group">
-              <div class="input__group">
-                <input type="text" />
-                <label>Guests</label>
-              </div>
-              <p>Add guests</p>
-            </div>
-          </form>
-          <button class="btn"><i class="ri-search-line"></i></button>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="section__container header__container" id="home">
+        <h1>Good Pastry & Coffee For a Good Day</h1>
+        <p>
+          Start your day on a delightful note with our freshly baked pastries
+          and premium coffee. At PastryWorld, we believe in crafting moments of
+          joy with every bite and sip.
+        </p>
+        <div class="header__btns">
+          <button class="btn">Let's Eat</button>
+          <button class="btn">Book a Table</button>
         </div>
       </div>
     </header>
 
-    <section class="section__container popular__container">
-      <h2 class="section__header">Popular Hotels</h2>
-      <div class="popular__grid">
-        <div class="popular__card">
-          <img src="assets/hotel-1.jpg" alt="popular hotel" />
-          <div class="popular__content">
-            <div class="popular__card__header">
-              <h4>The Plaza Hotel</h4>
-              <h4>$499</h4>
+    <section class="menu" id="menu">
+      <div class="section__container menu__container">
+        <h2 class="section__header">Popular Menu</h2>
+        <a href="#">
+          View All
+          <i class="ri-arrow-right-long-line"></i>
+        </a>
+        <div class="menu__grid">
+          <div class="menu__card">
+            <img src="assets/menu-1.jpg" alt="menu" />
+            <div class="menu__card__content">
+              <h4>Caramel Pecan Cinnamon Roll</h4>
+              <h3>$14.00</h3>
             </div>
-            <p>New York City, USA</p>
           </div>
-        </div>
-        <div class="popular__card">
-          <img src="assets/hotel-2.jpg" alt="popular hotel" />
-          <div class="popular__content">
-            <div class="popular__card__header">
-              <h4>Ritz Paris</h4>
-              <h4>$549</h4>
+          <div class="menu__card">
+            <img src="assets/menu-2.jpg" alt="menu" />
+            <div class="menu__card__content">
+              <h4>Chocolate Croissant (Pain au Chocolat)</h4>
+              <h3>$24.00</h3>
             </div>
-            <p>Paris, France</p>
           </div>
-        </div>
-        <div class="popular__card">
-          <img src="assets/hotel-3.jpg" alt="popular hotel" />
-          <div class="popular__content">
-            <div class="popular__card__header">
-              <h4>The Peninsula</h4>
-              <h4>$599</h4>
+          <div class="menu__card">
+            <img src="assets/menu-3.jpg" alt="menu" />
+            <div class="menu__card__content">
+              <h4>Chocolate Fudge Delight</h4>
+              <h3>$20.00</h3>
             </div>
-            <p>Hong Kong</p>
           </div>
-        </div>
-        <div class="popular__card">
-          <img src="assets/hotel-4.jpg" alt="popular hotel" />
-          <div class="popular__content">
-            <div class="popular__card__header">
-              <h4>Atlantis The Palm</h4>
-              <h4>$449</h4>
+          <div class="menu__card">
+            <img src="assets/menu-4.jpg" alt="menu" />
+            <div class="menu__card__content">
+              <h4>Triple Layer Chocolate Mousse</h4>
+              <h3>$29.00</h3>
             </div>
-            <p>Dubai, United Arab Emirates</p>
-          </div>
-        </div>
-        <div class="popular__card">
-          <img src="assets/hotel-5.jpg" alt="popular hotel" />
-          <div class="popular__content">
-            <div class="popular__card__header">
-              <h4>The Ritz-Carlton</h4>
-              <h4>$649</h4>
-            </div>
-            <p>Tokyo, Japan</p>
-          </div>
-        </div>
-        <div class="popular__card">
-          <img src="assets/hotel-6.jpg" alt="popular hotel" />
-          <div class="popular__content">
-            <div class="popular__card__header">
-              <h4>Marina Bay Sands</h4>
-              <h4>$549</h4>
-            </div>
-            <p>Singapore</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="client">
-      <div class="section__container client__container">
-        <h2 class="section__header">What our client say</h2>
-        <div class="client__grid">
-          <div class="client__card">
-            <img src="assets/client-1.jpg" alt="client" />
-            <p>
-              The booking process was seamless, and the confirmation was
-              instant. I highly recommend Impera Suites for hassle-free hotel bookings.
-            </p>
+    <section class="book">
+      <div class="section__container book__container">
+        <form action="/">
+          <h4>Book a Table</h4>
+          <div class="input__row">
+            <div class="input__group">
+              <label for="firstName">FIRST NAME</label>
+              <input type="text" />
+            </div>
+            <div class="input__group">
+              <label for="lastName">LAST NAME</label>
+              <input type="text" />
+            </div>
           </div>
-          <div class="client__card">
-            <img src="assets/client-2.jpg" alt="client" />
-            <p>
-              The website provided detailed information about hotel, including
-              amenities, photos, which helped me make an informed decision.
-            </p>
+          <div class="input__row">
+            <div class="input__group">
+              <label for="date">DATE</label>
+              <input type="date" />
+            </div>
+            <div class="input__group">
+              <label for="person">PERSON</label>
+              <input type="text" />
+            </div>
           </div>
-          <div class="client__card">
-            <img src="assets/client-3.jpg" alt="client" />
-            <p>
-              I was able to book a room within minutes, and the hotel exceeded
-              my expectations. I appreciate Impera Suites's efficiency and reliability.
-            </p>
+          <div class="input__row">
+            <button class="btn" type="submit">BOOK A TABLE</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.png" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">About Our Pastry World</h2>
+        <div>
+          <p>
+            Welcome to PastryWorld, where every pastry tells a story of passion,
+            flavor, and quality. Our journey began with a simple mission: to
+            create a haven for pastry and coffee lovers. Using only the finest
+            ingredients, our skilled bakers craft delightful pastries that
+            satisfy your sweet cravings and bring a smile to your day.
+          </p>
+          <p>
+            At PastryWorld, we believe in making every moment special, whether
+            it's a morning coffee break or a cozy gathering with friends.
+          </p>
+          <div class="about__btn">
+            <button class="btn">READ MORE</button>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section__container">
-      <div class="reward__container">
-        <p>100+ discount codes</p>
-        <h4>Join rewards and discover amazing discounts on your booking</h4>
-        <button class="reward__btn">Join Rewards</button>
-      </div>
-    </section>
-
-    <footer class="footer">
+    <footer>
       <div class="section__container footer__container">
         <div class="footer__col">
-          <h3>Impera Suites</h3>
-          <p>
-            Impera Suites is a premier hotel booking website that offers a seamless and
-            convenient way to find and book accommodations worldwide.
-          </p>
-          <p>
-            With a user-friendly interface and a vast selection of hotels,
-            Impera Suites aims to provide a stress-free experience for travelers
-            seeking the perfect stay.
-          </p>
+          <a href="#" class="footer__logo">
+            <img src="assets/logo.png" alt="logo" />
+          </a>
         </div>
         <div class="footer__col">
-          <h4>Company</h4>
-          <p>About Us</p>
-          <p>Our Team</p>
-          <p>Blog</p>
-          <p>Book</p>
-          <p>Contact Us</p>
+          <h4>Blogs</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                The Art of Perfect Pastry: Secrets Behind Our Creations
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                5 Coffee and Pastry Pairings to Brighten Your Day
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Behind the Scenes: A Day in the Life of Our Pastry Chefs
+              </a>
+            </li>
+          </ul>
         </div>
         <div class="footer__col">
-          <h4>Legal</h4>
-          <p>FAQs</p>
-          <p>Terms & Conditions</p>
-          <p>Privacy Policy</p>
+          <h4>New Items</h4>
+          <ul class="footer__links">
+            <li><a href="#">Menu Highlights</a></li>
+            <li><a href="#">Daily Specials</a></li>
+            <li><a href="#">Customer Testimonials</a></li>
+            <li><a href="#">Baking Workshops</a></li>
+            <li><a href="#">Blog & Recipe</a></li>
+          </ul>
         </div>
         <div class="footer__col">
-          <h4>Resources</h4>
-          <p>Social Media</p>
-          <p>Help Center</p>
-          <p>Partnerships</p>
+          <h4>Social Media</h4>
+          <ul class="footer__links">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
         </div>
       </div>
       <div class="footer__bar">
-        Copyright © 2023 Web Design Mastery. All rights reserved.
+        Copyright © 2025 Impera Suites. All rights reserved.
       </div>
     </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
   </body>
 </html>
